@@ -1,15 +1,15 @@
 //
-//  TextFieldsTests.swift
-//  TextFieldsTests
+//  BondVillainsTests.swift
+//  BondVillainsTests
 //
-//  Created by Jason on 11/11/14.
+//  Created by Jason on 11/19/14.
 //  Copyright (c) 2014 Udacity. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class TextFieldsTests: XCTestCase {
+class BondVillainsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
