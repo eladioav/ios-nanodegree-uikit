@@ -10,11 +10,11 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="xHB-xv-r7A">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImagePortrait" translatesAutoresizingMaskIntoConstraints="NO" id="I8u-eD-Uq0">
                     <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                 </imageView>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2014 Udacity. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
-                    <rect key="frame" x="20" y="439" width="441" height="21"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="  Copyright (c) 2014 Udacity. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="442" width="441" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
@@ -22,20 +22,25 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="I8u-eD-Uq0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1Yi-SS-gLO"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
-                <constraint firstAttribute="trailing" secondItem="xHB-xv-r7A" secondAttribute="trailing" id="LND-ZB-vcn"/>
+                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="MOS-uV-dce"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstAttribute="trailing" secondItem="I8u-eD-Uq0" secondAttribute="trailing" id="MlI-si-T7T"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
-                <constraint firstItem="xHB-xv-r7A" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cml-ow-Pzc"/>
-                <constraint firstAttribute="bottom" secondItem="xHB-xv-r7A" secondAttribute="bottom" id="fgs-zf-zOs"/>
-                <constraint firstItem="xHB-xv-r7A" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wEt-ea-nMa"/>
+                <constraint firstItem="I8u-eD-Uq0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="b46-P8-5mA"/>
+                <constraint firstItem="I8u-eD-Uq0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bxB-Gd-wIl"/>
+                <constraint firstItem="I8u-eD-Uq0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cBI-pt-lae"/>
+                <constraint firstAttribute="bottom" secondItem="I8u-eD-Uq0" secondAttribute="bottom" id="haM-3Y-oBS"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="kjJ-cO-PYC"/>
+                <constraint firstAttribute="trailing" secondItem="I8u-eD-Uq0" secondAttribute="trailing" id="tpg-RH-aR5"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="484" y="435"/>
+            <point key="canvasLocation" x="548" y="455"/>
         </view>
     </objects>
     <resources>
-        <image name="LaunchImage" width="768" height="1024"/>
+        <image name="LaunchImagePortrait" width="768" height="1024"/>
     </resources>
 </document>
